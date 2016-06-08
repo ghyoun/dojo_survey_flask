@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+    #wrapper {
+        width: 50%;
+        margin: 0 auto;
+        padding: 25px;
+        border: 1px solid black;
+        text-align: left;
+        font-size: 12pt !important;
+    }
+        h1 {
+            border-bottom: 1px solid black;
+        }
+
+        h3 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #infotype {
+            width: 45%;
+            padding-left: 5%;
+            text-align: left;
+            display:inline-block;
+        }
+
+        #infoinput {
+            width: 45%;
+            text-align: right;
+            display:inline-block;
+        }
+
+        #button {
+            padding: 5px;
+            background-color: teal;
+            color: white;
+            margin-top: 40px;
+            margin-left: 77%;
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            border-right: 4px solid black;
+            border-bottom: 4px solid black;
+        }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="css/index.css")}}">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="wrapper">
+        <form action="/results" method="Post">
+            Your Name: <input id="name" type="text" name="name"><br>
+            Dojo Location:
+            <select id="loc" name="location">
+                <option value="San Jose">San Jose</option>
+                <option value="Texas">Texas</option>
+                <option value="Seattle">Seattle</option>
+                <option value="New York">New York</option>
+                <option value="Mars">Mars</option>
+                <option value="Earth-2">Earth-2</option>
+            </select><br>
+            Favorite Language:
+            <select id="lang" name="language">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="HTML/CSS">HTML/CSS</option>
+                <option value="Spanish">Spanish</option>
+            </select><br>
+            Comment (optional):
+            <textarea id="comment" name="comment"></textarea><br>
+            <a href="templates\index.html"><input id="submit" type="submit"></a>
+        </form>
+    </div>
+</body>
+</html>
