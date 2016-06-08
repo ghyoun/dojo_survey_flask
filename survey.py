@@ -10,7 +10,7 @@ def ninja():
 
     name = request.form['name']
     location = request.form['location']
-    language = request.form['location']
+    language = request.form['language']
     comment = request.form['comment']
     return render_template('result.html', username=name, user_loc=location, user_lang=language, user_comment=comment)
 
